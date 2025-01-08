@@ -50,7 +50,7 @@ html {
     list-style: none;
     gap: 20px;
     font-weight: 500;
-    padding: 20px 50px;
+    padding: 20px 50px 20px 0;
 }
 
 .menu-items li {
@@ -71,7 +71,7 @@ html {
 }
 
 .menu-items a:hover {
-    border-bottom: 2px solid #073c4c ;
+    border-bottom: 2px solid #E28413 ;
 }
 
 .home-container {
@@ -138,7 +138,7 @@ html {
 /* About Me */
 
 .about-me {
-    background-color: #07374a;
+    background-color: #fefae0;
     padding: 6rem 0 6rem 0;
   }
   
@@ -159,7 +159,7 @@ html {
   
   .about-content p {
     font-size: 1.2rem;
-    color: #f0f0e6;
+    color: #07374a;
     padding: 0 2.3rem;
     text-align: center;
   }
@@ -202,7 +202,7 @@ html {
   
   .skills-bar .bar .info {
     margin-bottom: 8px;
-    color: #fefae0;
+    color: #07374a;
   }
   
 
@@ -210,7 +210,7 @@ html {
     position: relative;
     height: 10px;
     width: 550px;
-    background: #fefae0;
+    background: #E28413;
     border-radius: 10px;
     transform: scaleX(0);
     transform-origin: left;
@@ -220,7 +220,7 @@ html {
   
   .bar .progress-line span {
     position: absolute;
-    background: #E28413;
+    background: #07374a;
     height: 100%;
     border-radius: 10px;
     transform: scaleX(0);
@@ -272,7 +272,7 @@ html {
     color: #07374a;
     font-size: 12px;
     font-weight: 700;
-    background: #f0f0f0;
+    background: #ffffff;
     padding: 1px 8px;
     border-radius: 3px;
   }
@@ -335,7 +335,7 @@ html {
 
 .portfolio h2 {
     text-align: center;
-    color: #073c4c;
+    color: #E28413;
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
@@ -440,7 +440,7 @@ html {
 
 @media (max-width: 500px) {
     html {
-        font-size: 60%;
+        font-size: 80%;
     }
 
     .home-container {
