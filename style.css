@@ -139,7 +139,7 @@ html {
 
 .about-me {
     background-color: #07374a;
-    padding: 6rem 0;
+    padding: 6rem 0 6rem 0;
   }
   
   .about-me .about-heading {
@@ -328,10 +328,9 @@ html {
 
 /* Portfolio */
 
-
 .portfolio {
     background-color: #fefae0;
-    padding: 8rem;
+    padding: 5rem 0 10rem 0;
 }
 
 .portfolio h2 {
